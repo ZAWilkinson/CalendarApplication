@@ -7,32 +7,38 @@ using CalendarEvents.Repositories;
 
 namespace CalendarEvents
 {
-    class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine("Please enter the event details in the format 'yyyy-MM-dd,hh:mm,Activity':");
-            string input = Console.ReadLine();
+            var stringinput = Console.ReadLine();
 
             IEventParserService parser = new EventParserService();
             IEventsRepository repository = new EventRepository();
 
+            if (string.IsNullOrWhiteSpace(stringinput))
+            {
+                Console.WriteLine("Input cannot be null or empty.");
+                return;
+            }
+
             try
             {
-                Event parsedEvent = parser.ParseEvent(input);
+                Event parsedEvent = parser.ParseEvent(stringinput);
                 repository.AddEvent(parsedEvent);
 
                 // Convert to DTO for output
-                EventDTO eventDTO = new EventDTO
+                EventDTO eventDto = new EventDTO
                 {
                     Date = parsedEvent.Date.ToString("yyyy-MM-dd"),
                     Time = parsedEvent.Time.ToString(@"hh\:mm"),
                     Activity = parsedEvent.Activity
                 };
 
-                Console.WriteLine($"Date: {eventDTO.Date}");
-                Console.WriteLine($"Time: {eventDTO.Time}");
-                Console.WriteLine($"Activity: {eventDTO.Activity}");
+                Console.WriteLine($"Date: {eventDto.Date}");
+                Console.WriteLine($"Time: {eventDto.Time}");
+                Console.WriteLine($"Activity: {eventDto.Activity}");
             }
             catch (ArgumentException ex)
             {
