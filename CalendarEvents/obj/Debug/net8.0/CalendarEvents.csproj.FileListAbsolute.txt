@@ -1,0 +1,14 @@
+/Users/zwilkinson/Docs/C#Project/CalendarEvents/bin/Debug/net8.0/CalendarEvents
+/Users/zwilkinson/Docs/C#Project/CalendarEvents/bin/Debug/net8.0/CalendarEvents.deps.json
+/Users/zwilkinson/Docs/C#Project/CalendarEvents/bin/Debug/net8.0/CalendarEvents.runtimeconfig.json
+/Users/zwilkinson/Docs/C#Project/CalendarEvents/bin/Debug/net8.0/CalendarEvents.dll
+/Users/zwilkinson/Docs/C#Project/CalendarEvents/bin/Debug/net8.0/CalendarEvents.pdb
+/Users/zwilkinson/Docs/C#Project/CalendarEvents/obj/Debug/net8.0/CalendarEvents.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zwilkinson/Docs/C#Project/CalendarEvents/obj/Debug/net8.0/CalendarEvents.AssemblyInfoInputs.cache
+/Users/zwilkinson/Docs/C#Project/CalendarEvents/obj/Debug/net8.0/CalendarEvents.AssemblyInfo.cs
+/Users/zwilkinson/Docs/C#Project/CalendarEvents/obj/Debug/net8.0/CalendarEvents.csproj.CoreCompileInputs.cache
+/Users/zwilkinson/Docs/C#Project/CalendarEvents/obj/Debug/net8.0/CalendarEvents.dll
+/Users/zwilkinson/Docs/C#Project/CalendarEvents/obj/Debug/net8.0/refint/CalendarEvents.dll
+/Users/zwilkinson/Docs/C#Project/CalendarEvents/obj/Debug/net8.0/CalendarEvents.pdb
+/Users/zwilkinson/Docs/C#Project/CalendarEvents/obj/Debug/net8.0/CalendarEvents.genruntimeconfig.cache
+/Users/zwilkinson/Docs/C#Project/CalendarEvents/obj/Debug/net8.0/ref/CalendarEvents.dll
