@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/zwilkinson/Docs/C#Project/CalendarEvents/CalendarEvents.csproj": {}
+    "/Users/zwilkinson/source/repo/CalendarApplication/CalendarEvents/CalendarEvents.csproj": {}
   },
   "projects": {
-    "/Users/zwilkinson/Docs/C#Project/CalendarEvents/CalendarEvents.csproj": {
+    "/Users/zwilkinson/source/repo/CalendarApplication/CalendarEvents/CalendarEvents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zwilkinson/Docs/C#Project/CalendarEvents/CalendarEvents.csproj",
+        "projectUniqueName": "/Users/zwilkinson/source/repo/CalendarApplication/CalendarEvents/CalendarEvents.csproj",
         "projectName": "CalendarEvents",
-        "projectPath": "/Users/zwilkinson/Docs/C#Project/CalendarEvents/CalendarEvents.csproj",
+        "projectPath": "/Users/zwilkinson/source/repo/CalendarApplication/CalendarEvents/CalendarEvents.csproj",
         "packagesPath": "/Users/zwilkinson/.nuget/packages/",
-        "outputPath": "/Users/zwilkinson/Docs/C#Project/CalendarEvents/obj/",
+        "outputPath": "/Users/zwilkinson/source/repo/CalendarApplication/CalendarEvents/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/zwilkinson/.nuget/NuGet/NuGet.Config"
